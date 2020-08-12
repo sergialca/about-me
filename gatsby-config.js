@@ -5,7 +5,7 @@ require(`dotenv`).config({
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
-  pathPrefix: "/about-me",
+  pathPrefix: "",
   siteMetadata: {
     siteTitle: `Sergi Alcaraz`,
     // Default title of the page
