@@ -8,25 +8,17 @@ module.exports = {
   pathPrefix: "",
   siteMetadata: {
     siteTitle: `Sergi Alcaraz`,
-    // Default title of the page
     siteTitleAlt: `Sergi Alcaraz`,
-    // Can be used for e.g. JSONLD
     siteHeadline: `Sergi Alcaraz`,
-    // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://github.com/sergialca`,
-    // Used for SEO
     siteDescription: `Personal website`,
-    // Will be set on the <html /> tag
     siteLanguage: `en`,
-    // Used for og:image and must be placed inside the `static` folder
     siteImage: `/banner.jpg`,
-    // Twitter Handle
     author: `@lekoarts_de`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
-      // See the theme's README for all available options
       options: {},
     },
     {
